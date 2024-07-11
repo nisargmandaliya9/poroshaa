@@ -29,7 +29,6 @@
         databgImage: function () {
             $('[data-bgimage]').each(function () {
                 var url = $(this).data('bgimage');
-
                 $(this).css({
                     'background-image': 'url(' + url + ')'
                 });
@@ -337,13 +336,13 @@
         },
 
         /* Fancybox Slick Conflict */
-        fancyboxSlick: function () {
-            $('[data-fancybox]').fancybox({
-                beforeShow: function () {
-                    $('.tm-product-quickview .tm-prodetails-largeimages').slick('slickNext');
-                }
-            });
-        },
+        // fancyboxSlick: function () {
+        //     $('[data-fancybox]').fancybox({
+        //         beforeShow: function () {
+        //             $('.tm-product-quickview .tm-prodetails-largeimages').slick('slickNext');
+        //         }
+        //     });
+        // },
 
         /* Ajax Mailchimp */
         ajaxMailchimp: function () {
@@ -442,10 +441,21 @@
         /* Heroslider Height */
         herosliderHeight: function () {
             var headerHeight = $('.tm-header').height();
-            $('.tm-heroslider').css({
-                'min-height': 'calc(100vh - ' + headerHeight + 'px)'
-            })
+            if (window.innerWidth < 575) {
+                $('.tm-heroslider').css({
+                    'min-height': 'calc(70vh)'
+                })
+            } else if (window.innerWidth > 575 && window.innerWidth < 767) {
+                $('.tm-heroslider').css({
+                    'min-height': 'calc(80vh)'
+                })
+            } else {
+                $('.tm-heroslider').css({
+                    'min-height': 'calc(100vh - ' + headerHeight + 'px)'
+                })
+            }
         },
+
 
         /* Range Slider */
         rangeSlider: function () {
@@ -492,20 +502,20 @@
         },
 
         /* Instageed Active */
-        instafeedActive: function () {
-            var userFeed = new Instafeed({
-                get: 'user',
-                userId: 12620117360,
-                accessToken: '12620117360.1677ed0.73a0ac15057c4edcada08b9df21cfa49',
-                resolution: 'low_resolution',
-                limit: 8,
-                template: '<li><a href="{{link}}" target="_blank"><img src="{{image}}" /><ul class="tm-instaphotos-counter"><li><i class="ion-heart"></i> {{likes}}</li><li><i class="ion-chatbubbles"></i> {{comments}}</li></ul></a></li>',
-                filter: function (image) {
-                    return image.tags.indexOf('thememarch_jewelery') >= 0;
-                }
-            });
-            userFeed.run();
-        },
+        // instafeedActive: function () {
+        //     var userFeed = new Instafeed({
+        //         get: 'user',
+        //         userId: 12620117360,
+        //         accessToken: '12620117360.1677ed0.73a0ac15057c4edcada08b9df21cfa49',
+        //         resolution: 'low_resolution',
+        //         limit: 8,
+        //         template: '<li><a href="{{link}}" target="_blank"><img src="{{image}}" /><ul class="tm-instaphotos-counter"><li><i class="ion-heart"></i> {{likes}}</li><li><i class="ion-chatbubbles"></i> {{comments}}</li></ul></a></li>',
+        //         filter: function (image) {
+        //             return image.tags.indexOf('thememarch_jewelery') >= 0;
+        //         }
+        //     });
+        //     userFeed.run();
+        // },
 
         /* Scroll Animation */
         scrollAnimation: function () {
@@ -532,7 +542,7 @@
                 if (itemTopPosition <= windowBottomPosition) {
                     setTimeout(() => {
                         $item.addClass('show');
-                    }, 1500);
+                    }, index * 150);
                 } 
             });
         },
@@ -730,7 +740,7 @@
             poroshaa.niceSelectActive();
             poroshaa.countdownActivation();
             poroshaa.sliderActivations.init();
-            poroshaa.fancyboxSlick();
+            // poroshaa.fancyboxSlick();
             poroshaa.ajaxMailchimp();
             poroshaa.stickyHeader();
             // poroshaa.stickyHeader2();
@@ -739,7 +749,7 @@
             poroshaa.rangeSlider();
             poroshaa.productRatingInput();
             poroshaa.productQuantityBox();
-            poroshaa.instafeedActive();
+            // poroshaa.instafeedActive();
             poroshaa.scrollAnimation();
             poroshaa.scrollAnimation2();
             poroshaa.differentAddressFormToggle();
@@ -751,7 +761,9 @@
             poroshaa.portfolioFilter();
             poroshaa.productChangeView();
             $(window).on('resize', function () {
+                poroshaa.databgImage();
                 poroshaa.menuShowHide();
+                poroshaa.herosliderHeight();
             });
         }
     }

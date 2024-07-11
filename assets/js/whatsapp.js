@@ -12,10 +12,10 @@ function redirectToWhatsApp(phoneNumber, message) {
 
 const whatsappBtn = document.getElementById('whatsapp-btn');
 whatsappBtn.addEventListener('click', () => {
-    redirectToWhatsApp('917984883439', 'Hello! We would like to chat with you.');
+    redirectToWhatsApp('919974960604', 'Hello! I would like to chat with you.');
 });
 
 const whatsappIcon = document.getElementById('whatsapp_icon');
 whatsappIcon.addEventListener('click', () => {
-    redirectToWhatsApp('917984883439', 'Hello! We would like to chat with you.');
+    redirectToWhatsApp('919974960604', 'Hello! I would like to chat with you.');
 });
