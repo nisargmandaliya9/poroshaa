@@ -290,38 +290,38 @@
             },
 
             /* Blog Slider Activation */
-            blogSliderActivation: function () {
-                $('.tm-blog-slider').slick({
-                    infinite: true,
-                    autoplay: true,
-                    pauseOnHover: false,
-                    speed: 2000,
-                    autoplaySpeed: 5000,
-                    slidesToShow: 3,
-                    slidesToScroll: 1,
-                    arrows: false,
-                    dots: false,
-                    responsive: [{
-                            breakpoint: 1200,
-                            settings: {
-                                slidesToShow: 3,
-                            }
-                        },
-                        {
-                            breakpoint: 992,
-                            settings: {
-                                slidesToShow: 2,
-                            }
-                        },
-                        {
-                            breakpoint: 768,
-                            settings: {
-                                slidesToShow: 1,
-                            }
-                        }
-                    ]
-                });
-            },
+            // blogSliderActivation: function () {
+            //     $('.tm-blog-slider').slick({
+            //         infinite: true,
+            //         autoplay: true,
+            //         pauseOnHover: false,
+            //         speed: 2000,
+            //         autoplaySpeed: 5000,
+            //         slidesToShow: 3,
+            //         slidesToScroll: 1,
+            //         arrows: false,
+            //         dots: false,
+            //         responsive: [{
+            //                 breakpoint: 1200,
+            //                 settings: {
+            //                     slidesToShow: 3,
+            //                 }
+            //             },
+            //             {
+            //                 breakpoint: 992,
+            //                 settings: {
+            //                     slidesToShow: 2,
+            //                 }
+            //             },
+            //             {
+            //                 breakpoint: 768,
+            //                 settings: {
+            //                     slidesToShow: 1,
+            //                 }
+            //             }
+            //         ]
+            //     });
+            // },
 
             /* Slider Activation Initialization */
             init: function () {
@@ -331,7 +331,7 @@
                 this.brandlogoSliderActivation();
                 this.teamMemberSlider();
                 this.productDetailsGallery();
-                this.blogSliderActivation();
+                // this.blogSliderActivation();
             }
         },
 
