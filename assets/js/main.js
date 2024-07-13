@@ -32,6 +32,11 @@
                 $(this).css({
                     'background-image': 'url(' + url + ')'
                 });
+                if (window.innerWidth < 575) {
+                    $(this).css({
+                        'background-position': 'center'
+                    }); 
+                }
             });
         },
 
