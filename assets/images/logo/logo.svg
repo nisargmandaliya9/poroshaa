@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="Layer_2" data-name="Layer 2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 91.4 83.74">
+  <defs>
+    <style>
+      .cls-1 {
+        letter-spacing: 0em;
+      }
+
+      .cls-2 {
+        letter-spacing: -.01em;
+      }
+
+      .cls-3 {
+        fill: none;
+        stroke: #c69d42;
+        stroke-linecap: round;
+        stroke-miterlimit: 10;
+        stroke-width: 6px;
+      }
+
+      .cls-4 {
+        letter-spacing: .13em;
+      }
+
+      .cls-5 {
+        stroke-width: 0px;
+      }
+
+      .cls-5, .cls-6, .cls-7 {
+        fill: #c69d42;
+      }
+
+      .cls-8 {
+        letter-spacing: .19em;
+      }
+
+      .cls-6 {
+        font-family: UtileDisplay-Medium, 'Utile Display';
+        font-size: 14px;
+      }
+
+      .cls-6, .cls-7 {
+        font-weight: 500;
+      }
+
+      .cls-9 {
+        letter-spacing: .17em;
+      }
+
+      .cls-7 {
+        font-family: Inter-Medium, Inter;
+        font-size: 4px;
+      }
+
+      .cls-10 {
+        letter-spacing: .2em;
+      }
+
+      .cls-11 {
+        letter-spacing: .2em;
+      }
+
+      .cls-12 {
+        letter-spacing: .13em;
+      }
+
+      .cls-13 {
+        letter-spacing: -.01em;
+      }
+
+      .cls-14 {
+        letter-spacing: .17em;
+      }
+
+      .cls-15 {
+        letter-spacing: -.02em;
+      }
+
+      .cls-16 {
+        letter-spacing: .18em;
+      }
+    </style>
+  </defs>
+  <line class="cls-3" x1="31.82" y1="38.49" x2="31.82" y2="52.99"/>
+  <line class="cls-3" x1="42.82" y1="32.99" x2="42.82" y2="52.99"/>
+  <line class="cls-3" x1="53.32" y1="27.99" x2="53.32" y2="52.99"/>
+  <path class="cls-3" d="M29.32,7.99h19.33c5.69,0,11.75-.43,16.86,2.55,4.32,2.52,7.23,6.61,7.72,11.65.06.6.09,1.2.09,1.8,0,14-15.04,16-17.52,16.5"/>
+  <g>
+    <circle class="cls-5" cx="32.04" cy="27.87" r="3"/>
+    <path class="cls-5" d="M33.87,25.69l5.13-2.4s.02,1.15.98,2.11l-5.15,2.47-.96-2.17Z"/>
+  </g>
+  <g>
+    <circle class="cls-5" cx="42.98" cy="22.8" r="3"/>
+    <circle class="cls-5" cx="53.91" cy="17.51" r="3"/>
+    <path class="cls-5" d="M44.81,20.62l5.13-2.4s.02,1.15.98,2.11l-5.15,2.47-.96-2.17Z"/>
+  </g>
+  <text class="cls-6" transform="translate(11.8 71.27)"><tspan class="cls-2" x="0" y="0">P</tspan><tspan x="7.63" y="0">O</tspan><tspan class="cls-13" x="18.13" y="0">RO</tspan><tspan class="cls-1" x="36.5" y="0">S</tspan><tspan class="cls-15" x="43.43" y="0">H</tspan><tspan x="52.5" y="0">AA</tspan></text>
+  <text class="cls-7" transform="translate(4.71 79.09)"><tspan class="cls-10" x="0" y="0">WE</tspan><tspan class="cls-4" x="8.02" y="0" xml:space="preserve">  </tspan><tspan class="cls-10" x="11.22" y="0">EXIS</tspan><tspan class="cls-14" x="23.31" y="0">T</tspan><tspan class="cls-8" x="26.59" y="0">,</tspan><tspan class="cls-11" x="28.56" y="0"> </tspan><tspan class="cls-9" x="30.42" y="0">T</tspan><tspan class="cls-10" x="33.71" y="0">O</tspan><tspan class="cls-12" x="37.58" y="0" xml:space="preserve">  </tspan><tspan class="cls-10" x="40.78" y="0">SE</tspan><tspan class="cls-16" x="47.37" y="0">R</tspan><tspan class="cls-10" x="50.7" y="0">VE</tspan><tspan class="cls-4" x="57.54" y="0" xml:space="preserve">   </tspan><tspan class="cls-11" x="62.34" y="0">BETTER</tspan></text>
+</svg>
