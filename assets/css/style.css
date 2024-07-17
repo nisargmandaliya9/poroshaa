@@ -1399,12 +1399,12 @@ input[type=radio]:checked ~ label::before {
   width: 230px;
 }
 
-@media only screen and (max-width: 767px) {
+/* @media only screen and (max-width: 767px) {
   .tm-preloader-logo img {
     height: 180px;
     width: 180px;
   }
-}
+} */
 
 .tm-preloader-progress {
   display: block;
