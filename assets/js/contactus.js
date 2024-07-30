@@ -3,7 +3,7 @@ let formMessages = document.getElementById('form-messages');
 form.addEventListener('submit', function(event) {
     event.preventDefault();
 
-    fetch('https://script.google.com/macros/s/AKfycbyCtpIvSKKrDT2X_hdZfRH74SYXRqWD-s9-LJXplPmhGPr_vE-d4KnEp4S0mxxMIsqilQ/exec', {
+    fetch('https://script.google.com/macros/s/AKfycbyWrxYZXSatIXDs9PBNWjIXEayyYAaS5fMHSbxSD2QDDl_3DioQqlU15VW-xQoWMTnw/exec', {
         method: 'POST',
         body: new FormData(form)
     })
