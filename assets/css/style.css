@@ -1399,13 +1399,6 @@ input[type=radio]:checked ~ label::before {
   width: 230px;
 }
 
-/* @media only screen and (max-width: 767px) {
-  .tm-preloader-logo img {
-    height: 180px;
-    width: 180px;
-  }
-} */
-
 .tm-preloader-progress {
   display: block;
   height: 3px;
@@ -1427,8 +1420,8 @@ input[type=radio]:checked ~ label::before {
   -webkit-transform-origin: 0 0;
       -ms-transform-origin: 0 0;
           transform-origin: 0 0;
-  -webkit-animation: tmFillFull 4s linear 0s 1 both;
-          animation: tmFillFull 4s linear 0s 1 both;
+  -webkit-animation: tmFillFull 2s linear 0s 1 both;
+          animation: tmFillFull 2s linear 0s 1 both;
 }
 
 .tm-preloader .tm-button {
