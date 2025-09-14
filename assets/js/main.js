@@ -10,10 +10,14 @@
     $('.tm-preloader .tm-button').on('click', function () {
         $('.tm-preloader').fadeOut();
     });
+    
     $(window).on('load', function () {
         $('.tm-preloader').fadeOut();
     });
 
+    setTimeout(function() {
+        $('.tm-preloader').fadeOut();
+    }, 4000);
 
     var poroshaa = {
 
