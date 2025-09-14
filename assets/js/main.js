@@ -15,9 +15,9 @@
         $('.tm-preloader').fadeOut();
     });
 
-    setTimeout(function() {
-        $('.tm-preloader').fadeOut();
-    }, 4000);
+    // setTimeout(function() {
+    //     $('.tm-preloader').fadeOut();
+    // }, 4000);
 
     var poroshaa = {
 
